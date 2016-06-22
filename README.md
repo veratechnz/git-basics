@@ -23,18 +23,34 @@ git push
 
 ## Group Branching
 
-### Create
-
+#### Create
 git branch (This will tell you what branch you are on)
+
 git branch melsbranch
+
 git checkout melsbranch
-#### After you have completed your changes
+
+#### After you have completed your changes commit them to the branch
 git add -A
+
 git commit-am"commiting branch changes"
+
+#### Then Go Back To The Master, Pull It To Get The Latest Update, And Finally Merge It With Your Branch/Changes
 git checkout master
+
 git pull
-#### Merge Time
+
 git merge melsbranch
+
+
+#### Then commit and push the updated master to the remote (Git Servers)
+git add -A
+
+git commit-am"commiting branch changes"
+
+git push
+
+
 
 
 
