@@ -2,9 +2,21 @@
 
 ## Initializing a git repo
 git init
-git add README.md
-git commit -m "first commit"
-git remote add origin https://github.com/veratechnz/new-delete.git
+
+git add -A
+
+git commit -am "a message for your git commit"
+
+git remote add origin https://github.com/youraccount/reponame.git
+
 git push -u origin master
 
+
+## Normal Git Cycle
+
+git add -A
+
+git commit -am "a message for your git commit"
+
+git push
 
