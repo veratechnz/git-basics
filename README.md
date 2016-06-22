@@ -25,3 +25,16 @@ git push
 
 ### Create
 
+git branch (This will tell you what branch you are on)
+git branch melsbranch
+git checkout melsbranch
+#### After you have completed your changes
+git add -A
+git commit-am"commiting branch changes"
+git checkout master
+git pull
+#### Merge Time
+git merge melsbranch
+
+
+
