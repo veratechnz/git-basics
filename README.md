@@ -1,6 +1,6 @@
 # Git Basics
 
-## Initializing a git repo
+## Initializing A Git Repo
 git init
 
 git add -A
@@ -19,4 +19,9 @@ git add -A
 git commit -am "a message for your git commit"
 
 git push
+
+
+## Group Branching
+
+### Create
 
