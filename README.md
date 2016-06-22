@@ -12,7 +12,7 @@ git remote add origin https://github.com/youraccount/reponame.git
 git push -u origin master
 
 
-## Normal Git Cycle
+## Normal Git Cycle For Pushing
 
 git add -A
 
@@ -35,13 +35,12 @@ git add -A
 
 git commit-am"commiting branch changes"
 
-#### Then Go Back To The Master, Pull It To Get The Latest Update, And Finally Merge It With Your Branch/Changes
+#### Then go back to the master, Pull the master to get the latest update. Finally merge it with your branch/changes
 git checkout master
 
 git pull
 
 git merge melsbranch
-
 
 #### Then commit and push the updated master to the remote (Git Servers)
 git add -A
